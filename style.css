@@ -1,0 +1,98 @@
+
+/* table */
+.wf-table{
+    margin:0;
+    padding:0;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+.wf-table caption,
+.wf-table th,
+.wf-table td{
+    padding:4px;
+    border: 1px solid #ccc;
+    line-height: 16px;
+    font-weight: normal;
+    word-wrap: break-word;
+    vertical-align: middle;
+}
+
+.wf-table caption{
+    background: #f4f4f4;
+    text-align: left;
+    font-weight:bold;
+    border-bottom: none;
+    padding:7px 6px
+}
+
+.wf-table thead th{
+    text-align: center;
+    background: #f7f7f7;
+}
+.wf-table tbody th{
+    text-align: right;
+    background-color: #fafafa;
+}
+.wf-table tfoot th{
+    text-align: right;
+    background-color: #fafafa;
+}
+
+.wf-table.wf-table-list tbody td{
+    text-align: center;
+}
+.wf-table.wf-table-list thead th{
+    background: #f7f7f7;
+    text-align: center;
+}
+.wf-table .wf-table-field-tips{
+    display: inline-block;
+    color: #999;
+    margin-top: 4px;
+}
+.wf-table-field-label{
+    display: inline-flex;
+    text-align: right;
+}
+.wf-table-field-label-pointer{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
+}
+.wf-table-field-label-pointer sup{
+    top:0
+}
+
+.wf-table .wf-table{
+    margin:0
+}
+
+.wf-table .fake-alone-th{
+    background-color: #f8f8f8;
+    padding:4px;
+}
+.wf-table .fake-alone-td{
+    padding:4px;
+    border-top:1px solid #ccc;
+}
+.wf-table .fake-alone-th .wf-table-field-label{
+    text-align:left
+}
+
+.wf-table-merge-up{
+    margin-top:-21px;
+}
+.wf-table-merge-up caption{
+    display: none;
+}
+
+.wf-table-noborder{
+    display: inline-table;
+    border: none;
+}
+.wf-table-noborder th,
+.wf-table-noborder td{
+    border: none;
+    padding: 0;
+}
